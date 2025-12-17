@@ -1,0 +1,27 @@
+:root {
+    /* Primary Theme Colors */
+    --primary-color: #2563eb;     /* Blue */
+    --secondary-color: #111827;   /* Dark Gray */
+    --accent-color: #22c55e;      /* Green */
+
+    /* Background & Text */
+    --background-color: #f9fafb;
+    --card-background: #ffffff;
+    --text-color: #1f2937;
+    --muted-text: #6b7280;
+
+    /* Fonts */
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Spacing */
+    --section-padding: 3rem 2rem;
+
+    /* Border & Radius */
+    --border-radius: 8px;
+
+    /* Shadows */
+    --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --transition-speed: 0.3s ease;
+}

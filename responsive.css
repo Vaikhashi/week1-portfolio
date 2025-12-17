@@ -1,0 +1,64 @@
+/* ================= MOBILE NAVIGATION ================= */
+.burger {
+    display: none;
+    font-size: 1.6rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ================= TABLET & MOBILE ================= */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: var(--card-background);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+        box-shadow: var(--box-shadow);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 0.8rem 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    .skills-grid span {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+    }
+}
